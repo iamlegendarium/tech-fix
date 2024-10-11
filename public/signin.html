@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="signin.css" />
+    <title>Sign In - Tech Fix</title>
+  </head>
+  <body>
+    <section class="s1">
+      <div class="s1boxes">
+        <div class="s1box1">
+          <img src="img/Desktop - 2.png" alt="Tech Fix background" />
+        </div>
+
+        <div class="s1box2">
+          <div>
+            <img src="img/TECH-FIX.png" alt="Tech Fix logo" />
+            <p style="color: #fbfcff">REPAIR. REVIVE. REIMAGINE</p>
+          </div>
+          <div>
+            <h6>Let's get started</h6>
+            <p>
+              We are here to rescue your devices from the clutches of damage,
+              restoring them to their former glory and beyond.
+            </p>
+            <img src="img/Line 3.png" alt="Decorative line" />
+          </div>
+        </div>
+
+        <div class="s1box3">
+          <h3 class="text-center">Sign in</h3>
+
+          <div class="form">
+            <label for="signinemail">Email address</label> <br />
+            <input
+              type="email"
+              placeholder="Enter your email"
+              id="signinemail"
+              class="mt-1 rounded-3"
+              required
+            />
+
+            <label for="signinpassword" class="passwordlabel">Password</label>
+            <br />
+            <input
+              type="password"
+              placeholder="Enter your password"
+              id="signinpassword"
+              class="mt-1 rounded-3"
+              required
+            />
+          </div>
+
+          <div class="text-center">
+            <button class="mt-3 rounded-3" id="signinbtn">Sign in</button>
+            <br />
+            <br />
+            <button id="forgotpassword">Forgot password?</button>
+          </div>
+
+          <div>
+            <p class="yettoopenacct">
+              Yet to open an account?
+              <a
+                href="#"
+                class="text-decoration-none"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"
+                ><b>Sign Up</b></a
+              >
+            </p>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="staticBackdrop"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body d-flex gap-2">
+                    <div class="w-100 signupimage">
+                      <img
+                        src="img/Desktop - 2.png"
+                        alt="Tech Fix signup"
+                        style="width: 100%; height: 100%"
+                      />
+                    </div>
+
+                    <div class="w-100">
+                      <form id="signupForm">
+                        <h3 class="text-center fs-5">Sign Up</h3>
+
+                        <div class="d-flex justify-content-between mt-5">
+                          <a href="#" class="text-center">
+                            <img
+                              src="img/signup.png"
+                              alt="Sign up icon"
+                              class="w-75"
+                            />
+                          </a>
+                          <a href="signin.html" class="text-center">
+                            <img
+                              src="img/signin.png"
+                              alt="Sign in icon"
+                              class="w-75"
+                            />
+                          </a>
+                        </div>
+
+                        <div class="p-3">
+                          <label for="signupemail" class="fs-6 mt-4"
+                            >Email Address</label
+                          >
+                          <br />
+                          <input
+                            type="email"
+                            placeholder="Enter your email"
+                            class="w-100 p-2 rounded-5 mt-1 fs-6"
+                            id="signupemail"
+                            required
+                          />
+                          <br />
+                          <br />
+
+                          <label for="signuppassword" class="fs-6"
+                            >Create password</label
+                          >
+                          <br />
+                          <input
+                            type="password"
+                            placeholder="More than 8 characters"
+                            class="w-100 p-2 rounded-5 mt-1 fs-6"
+                            id="signuppassword"
+                            required
+                          />
+                        </div>
+
+                        <div class="text-center">
+                          <button
+                            type="submit"
+                            class="btn btn-primary w-75 rounded-5"
+                            id="getStartedBtn"
+                          >
+                            Get Started
+                          </button>
+
+                          <br /><br />
+
+                          <span>
+                            Already have an account?
+                            <a
+                              href="signin.html"
+                              class="text-decoration-none text-primary"
+                              >sign in</a
+                            >
+                          </span>
+                        </div>
+
+                        <div
+                          class="modalquicksignup d-flex align-items-center justify-content-center gap-4 mt-4"
+                        >
+                          <img src="img/line.png" alt="Decorative line" />
+                          <p class="fw-500 text-nowrap mb-0">Quick sign up</p>
+                          <img src="img/line.png" alt="Decorative line" />
+                        </div>
+
+                        <div class="text-center mt-3">
+                          <button
+                            type="button"
+                            id="modalGoogleBtn"
+                            class="social-btn google-btn mb-2"
+                          >
+                            <img src="img/google icon.png" alt="Google icon" />
+                            <span class="ms-2 fw-bold">Google</span>
+                          </button>
+
+                          <button
+                            type="button"
+                            id="modalFacebookBtn"
+                            class="social-btn facebook-btn"
+                          >
+                            <img src="img/fb icon.png" alt="Facebook icon" />
+                            <span class="ms-2 fw-bold">Facebook</span>
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="quicksignup d-flex align-items-center justify-content-center gap-4 mt-5"
+          >
+            <img src="img/line.png" alt="Decorative line" />
+            <p class="fw-500 mb-0">Quick sign up</p>
+            <img src="img/line.png" alt="Decorative line" />
+          </div>
+
+          <div class="text-center googlefacebookdiv mt-3">
+            <button
+              type="button"
+              id="mainGoogleBtn"
+              class="social-btn google-btn mb-2"
+            >
+              <img src="img/google icon.png" alt="Google icon" />
+              <span class="ms-2 fw-bold">Google</span>
+            </button>
+
+            <button
+              type="button"
+              id="mainFacebookBtn"
+              class="social-btn facebook-btn"
+            >
+              <img src="img/fb icon.png" alt="Facebook icon" />
+              <span class="ms-2 fw-bold">Facebook</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script type="module" src="signin.js"></script>
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

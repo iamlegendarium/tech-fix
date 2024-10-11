@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dashboard.css">
+  
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.css">
+    <title>dashboard</title>
+</head>
+<body>
+<section class="themaincontainer">
+  
+    <header>
+        <div class="s1boxes">
+
+            <nav class="pcnavbar">
+      
+              <div class="logo">
+                  <img src="img/dashboard logo.png" alt="">
+                  <p>REPAIR. REVIVE. REIMAGINE</p>
+              </div>
+      
+              <div class="navbox2">
+      
+                  <div>        
+                      <a href="#" class=" text-decoration-none">Home</a>
+      
+                      <a href="#" class=" text-decoration-none">About Us</a>
+      
+                      <a href="#" class=" text-decoration-none">Services</a>
+      
+                      <a href="#" class=" text-decoration-none">Contact</a>  
+      
+                  </div> 
+      
+                  <div>
+                      <input type="search" placeholder="search">
+      
+                     <a href="#"><img src="img/dashboard sign in.png" alt=""></a>
+                  </div>
+              </div>
+      
+           </nav>
+
+
+           <!-- phone view navbar -->
+
+           <nav class="navbar navbar-expand-lg" id="phonenavbar">
+            <div class="container-fluid">
+                <div class="logo">
+                   <a href=""><img src="img/dashboard logo.png" alt="" ></a> 
+                    <p>REPAIR. REVIVE. REIMAGINE</p>
+                </div>
+            
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive">  <span class="navbar-toggler-icon"></span></button>
+    
+    
+            <div class="offcanvas-lg offcanvas-end w-75  rounded-1" tabindex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
+            <div class="offcanvas-header d-flex">
+               <div class="logo">
+                    <img src="img/TECH-FIX.png" alt="" class="w-50">
+                    <p>REPAIR. REVIVE. REIMAGINE</p>
+                </div> 
+                
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Close"></button>
+            </div>
+    
+            <div class="offcanvas-body p-3 ">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item mt-5">
+                      <a class="nav-link active" aria-current="page" href="#">About Us </a>
+                    </li>
+                    <li class="nav-item mt-5">
+                      <a class="nav-link active" aria-current="page" href="#">Service</a>
+                    </li>
+                    <li class="nav-item mt-5">
+                      <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                    </li>
+
+                </ul>
+                   
+            </div>
+            </div>
+             
+            </div>
+          </nav>
+    
+    </header>
+   
+    <main class="hero">
+      
+      <h1 class="bookappointment">Book an Appointment</h1>
+
+        <div class="inputanddatecontainer ">
+
+            <div class="w-100 p-2">
+                <form action="" class="form" >
+                    <h6>Input info</h6>
+
+                    <input type="tel" placeholder="Phone Number">
+                    <input type="text" placeholder="Address">
+                    <input type="text" placeholder="Device Type">
+                    <input type="text" placeholder="Device Model">
+                    <input type="text" placeholder="Repair Priorities">
+                </form>
+
+                <div class="mt-5 timecontainer">
+                    <span>Time:</span>
+                    <input type="time" class="time ms-3">
+                </div>
+                
+            </div>
+
+            <div class="calender w-100 p-2">
+              <h6>Select date</h6>
+                <input type="date">
+             </div>
+
+        </div>
+
+      
+
+      <div class="btncontainer">
+        <button class="btnconfirm">Confirm</button>
+        <button class="btncancel">Cancel</button>
+      </div>
+
+    </main>
+</section>
+
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Gadget Repair</title>
+  </head>
+  <body>
+    <section class="s1 w-100">
+      <div class="s1boxes">
+        <nav class="systemnavbar">
+          <div class="logo">
+            <img src="img/TECH-FIX.png" alt="" />
+            <p>REPAIR. REVIVE. REIMAGINE</p>
+          </div>
+
+          <div class="systemnavbarbox1">
+            <div>
+              <a href="#" class="text-decoration-none text-white">Home</a>
+
+              <a href="#" class="text-decoration-none text-white">About Us</a>
+
+              <a href="#" class="text-decoration-none text-white">Services</a>
+
+              <a href="#" class="text-decoration-none text-white">Contact</a>
+            </div>
+
+            <div>
+              <input type="search" placeholder="search" />
+
+              <a href="signin.html"><img src="img/sign in.png" alt="" /></a>
+            </div>
+          </div>
+        </nav>
+
+        <!-- phone view navbar -->
+        <nav class="navbar navbar-expand-lg phonenavbar">
+          <div class="container-fluid">
+            <div class="logo">
+              <a href=""><img src="img/TECH-FIX.png" alt="" /></a>
+              <p>REPAIR. REVIVE. REIMAGINE</p>
+            </div>
+
+            <button
+              class="navbar-toggler border-white bg-white"
+              style="filter: brightness(70%)"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasResponsive"
+              aria-controls="offcanvasResponsive"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div
+              class="offcanvas-lg offcanvas-end w-75 offcanvas rounded-1"
+              tabindex="-1"
+              id="offcanvasResponsive"
+              aria-labelledby="offcanvasResponsiveLabel"
+            >
+              <div class="offcanvas-header d-flex">
+                <div class="logo">
+                  <img src="img/TECH-FIX.png" alt="" class="w-50" />
+                  <p>REPAIR. REVIVE. REIMAGINE</p>
+                </div>
+
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  data-bs-target="#offcanvasResponsive"
+                  aria-label="Close"
+                ></button>
+              </div>
+
+              <div class="offcanvas-body p-3">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active text-white"
+                      aria-current="page"
+                      href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item mt-5">
+                    <a
+                      class="nav-link active text-white"
+                      aria-current="page"
+                      href="#"
+                      >About Us
+                    </a>
+                  </li>
+                  <li class="nav-item mt-5">
+                    <a
+                      class="nav-link active text-white"
+                      aria-current="page"
+                      href="#"
+                      >Service</a
+                    >
+                  </li>
+                  <li class="nav-item mt-5">
+                    <a
+                      class="nav-link active text-white"
+                      aria-current="page"
+                      href="#"
+                      >Contact</a
+                    >
+                  </li>
+
+                  <li class="nav-item mt-5">
+                    <a
+                      class="nav-link active text-white"
+                      aria-current="page"
+                      href="signin.html"
+                      >Sign in</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="hero">
+          <div class="">
+            <h2>
+              From Broken to Brilliant; <br />
+              Unleash the Power of Your Gadgets Again
+            </h2>
+
+            <p>
+              Introducing TECH-FIX, where your gadgets find their ultimate
+              superhero! We are here to rescue your devices from the clutches of
+              damage, restoring them to their former glory and beyond.
+            </p>
+          </div>
+
+          <div>
+            <!-- <button>Sign Up</button> -->
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
+              Sign Up
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="staticBackdrop"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-lg modal-sm">
+                <div class="modal-content" style="border: 2px solid #abc3ff">
+                  <div class="modal-header">
+                    <!-- <h1 class="modal-title fs-5" id="staticBackdropLabel">Sign Up</h1> -->
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body d-flex gap-2">
+                    <div class="w-100 signupimage">
+                      <img
+                        src="img/Desktop - 2.png"
+                        alt=""
+                        style="width: 100%; height: 100%"
+                      />
+                    </div>
+
+                    <div class="w-100">
+                      <form action="">
+                        <h3 class="text-center fs-5">Sign Up</h3>
+
+                        <div class="d-flex justify-content-between mt-5">
+                          <a href="" class="text-center"
+                            ><img src="img/signup.png" alt="" class="w-75"
+                          /></a>
+
+                          <a
+                            href="signin.html"
+                            target="_blank"
+                            class="text-center"
+                            ><img src="img/signin.png" alt="" class="w-75"
+                          /></a>
+
+                          <!-- <a href="signin.html"><img src="img/signin.png" alt=""></a>   -->
+                        </div>
+
+                        <div class="p-3">
+                          <label for="email" class="fs-6 mt-4"
+                            >Email Address</label
+                          >
+                          <br />
+                          <input
+                            type="email"
+                            placeholder="Enter your email"
+                            class="w-100 p-2 rounded-5 mt-1 fs-6"
+                            id="useremail"
+                          />
+                          <br />
+                          <br />
+
+                          <label for="password" class="fs-6"
+                            >Create password</label
+                          >
+                          <br />
+                          <input
+                            type="password"
+                            placeholder="More than 8 character"
+                            class="w-100 p-2 rounded-5 mt-1 fs-6"
+                            id="userpassword"
+                          />
+                        </div>
+
+                        <div class="text-center">
+                          <button
+                            class="btn btn-primary w-75"
+                            id="getStartedBtn"
+                          >
+                            Get Started
+                          </button>
+                          <br />
+
+                          <span
+                            >Already have an account?
+                            <button class="bg-transparent fs-6 text-primary">
+                              <a href="signin.html" class="text-decoration-none"
+                                >sign in
+                              </a>
+                            </button></span
+                          >
+                        </div>
+
+                        <div
+                          style="
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            gap: 5px;
+                            font-size: 10px;
+                            margin-top: 10px;
+                          "
+                        >
+                          <img src="img/line.png" alt="" />
+                          <p
+                            style="
+                              font-size: 12px;
+                              color: black;
+                              text-wrap: nowrap;
+                              font-weight: 500;
+                            "
+                          >
+                            Quick sign up
+                          </p>
+                          <img src="img/line.png" alt="" />
+                        </div>
+
+                        <div class="text-center">
+                          <button id="googlebtn">
+                            <img src="img/google icon.png" alt="" /><span
+                              class="ms-2 fw-bold"
+                              >Google</span
+                            >
+                          </button>
+
+                          <button id="facebookbtn">
+                            <img src="img/fb icon.png" alt="" /><span
+                              class="ms-2 fw-bold"
+                              >Facebook</span
+                            >
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="s2">
+      <div class="s2boxes">
+        <div class="s2box1">
+          <img src="img/Pointing Girl 1.png" alt="" />
+        </div>
+
+        <div class="s2box2">
+          <div class="s2box2div1">
+            <h5>Care to Know About Our Services?</h5>
+            <p>
+              Discover our array of exceptional services designed to revitalize
+              your devices. From screen enchantments to battery reinvigoration,
+              our skilled artisans possess the expertise to transcend your
+              expectations.
+            </p>
+          </div>
+
+          <div class="s2box2div2">
+            <div>
+              <img src="img/🦆 icon _laptop_.png" alt="" />
+              <span>
+                <h6>Laptops</h6>
+                <p>
+                  Skilled technicians, fast turnaround. Cracked screens,
+                  keyboard replacements, and more. Get your laptop back to peak
+                  performance.
+                </p>
+              </span>
+            </div>
+
+            <div>
+              <img src="img/Vector (1).png" alt="" />
+              <span>
+                <h6>Consoles</h6>
+                <p>
+                  Gaming console experts at your service. Quick fixes for
+                  uninterrupted gaming.
+                </p>
+              </span>
+            </div>
+          </div>
+
+          <div class="s2box2div3">
+            <div>
+              <img src="img/Vector.png" alt="" />
+              <span>
+                <h6>Phones / Tabs</h6>
+                <p>
+                  Cracked screens, battery replacements, software issues, and
+                  more. Our experts fix it all, fast. Trust us with your
+                  device's repair needs.
+                </p>
+              </span>
+            </div>
+
+            <div>
+              <img src="img/Vector (2).png" alt="" />
+              <span>
+                <h6>Other Gadgets</h6>
+                <p>
+                  Skilled technicians, fast turnaround. Cracked screens,
+                  keyboard replacements, and more. Get your gagets back to peak
+                  performance.
+                </p>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="s3">
+      <div class="s3boxes">
+        <div class="s3box1">
+          <h5>Explore Our Categories:</h5>
+
+          <p>
+            Dive into the world of tech repairs and discover our comprehensive
+            range of services tailored to your specific needs. Choose from our
+            carefully curated categories to find the perfect solution for your
+            device.
+          </p>
+        </div>
+
+        <div class="s3box2">
+          <div class="d-flex justify-content-between">
+            <span>
+              <img src="img/unsplash_laptop.png" alt="" />
+              <p>Laptops</p>
+            </span>
+
+            <span>
+              <img src="img/unsplash_Phone.png" alt="" />
+              <p>Phones</p>
+            </span>
+          </div>
+
+          <div class="d-flex justify-content-between">
+            <span>
+              <img src="img/unsplash_Tab.png" alt="" />
+              <p>Tabs</p>
+            </span>
+
+            <span>
+              <img src="img/unsplash_console.png" alt="" />
+              <p>Consoles</p>
+            </span>
+          </div>
+        </div>
+
+        <div class="s3box3">
+          <div class="d-flex justify-content-between">
+            <span>
+              <img src="img/unsplash_smart watch.png" alt="" />
+              <p>Smart Watches</p>
+            </span>
+
+            <span>
+              <img src="img/unsplash_Camera.png" alt="" />
+              <p>Camera</p>
+            </span>
+          </div>
+
+          <div class="d-flex justify-content-between">
+            <span>
+              <img src="img/unsplash_VR headset.png" alt="" />
+              <p>VR Headset</p>
+            </span>
+
+            <span>
+              <img src="img/unsplash_Speaker.png" alt="" />
+              <p>Speakers</p>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="s4">
+      <div class="s4boxes">
+        <div class="s4box1">
+          <div>
+            <h5>Schedule Your Appointment</h5>
+            <p>
+              Experience the convenience of our services by booking an
+              appointment today. Secure your spot and let our skilled
+              technicians take care of your device. Don't wait
+            </p>
+          </div>
+
+          <div class="d-flex justify-content-evenly">
+            <button class="s4box1btn1">Book an Appointment</button>
+            <button class="s4box1btn2">Chat With an Agent</button>
+          </div>
+        </div>
+
+        <div class="s4box2">
+          <img
+            src="img/—Pngtree—cartoon hand drawn smart phone_5439927 blue 1.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footerboxes">
+        <div class="d-flex w-100 gap-5">
+          <div class="footerbox1">
+            <span>
+              <img src="img/Location.png" alt="" />
+              <p>31 Redwood Street Abuja, Nigeria</p>
+            </span>
+
+            <span>
+              <img src="img/Call.png" alt="" />
+              <p>+234 -811 -887 - 0050</p>
+            </span>
+
+            <span>
+              <img src="img/Mail.png" alt="" />
+              <p>info@techfix.com</p>
+            </span>
+          </div>
+
+          <div class="footerbox2">
+            <span>
+              <img src="img/Twitter.png" alt="" />
+              <p>@tech_fix</p>
+            </span>
+
+            <span>
+              <img src="img/Istagram.png" alt="" />
+              <p>@tech_fix</p>
+            </span>
+
+            <span>
+              <img src="img/Facebook.png" alt="" />
+              <p>@tech_fix</p>
+            </span>
+          </div>
+        </div>
+
+        <div class="w-100">
+          <div class="footerbox3">
+            <h6>About Us</h6>
+
+            <p>
+              We are a team of passionate tech enthusiasts dedicated to
+              providing top-notch repair solutions. With years of experience and
+              a commitment to customer satisfaction, we strive to deliver
+              exceptional service and bring your devices back to life. Trust our
+              expertise and let us handle your tech repair needs with care and
+              precision.
+            </p>
+
+            <p>2023 copyright, techfix.com</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
+
+    <script type="module" src="index.js"></script>
+  </body>
+</html>

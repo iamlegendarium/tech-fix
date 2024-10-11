@@ -1,0 +1,231 @@
+.themaincontainer{
+    height: fit-content;
+    background-color: #eef2fb;
+    padding: 0px 0px 50px 0px;
+}
+header{
+    padding: 20px 0px 5px 80px;
+    border-bottom: 2px solid #31467a;
+    width: 100%;
+
+   
+   
+}
+.hero{
+    padding: 20px 100px;
+}
+
+
+.pcnavbar{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+    
+    }
+    
+.logo p{
+        text-align: center;
+        font-size: 12px;
+        color: #31467a;
+        filter: brightness(70%);
+    }
+.navbox2{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 100px;
+    }
+    
+.navbox2 div a{
+        margin-left: 20px;
+        color: #31467a;
+        font-weight: 500;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+.navbox2 div input{
+       border: none;
+       border-radius: 30px;
+       padding-left: 10px;
+       font-size: 14px;
+       font-weight: 500;
+       color: #31467a;
+       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+    }
+
+
+  #phonenavbar{
+    display: none;
+  }
+
+  .bookappointment{
+    color: #31467a;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+  }
+
+  .inputanddatecontainer{
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-weight: 500;
+  }
+
+  .form input{
+    background-color: #ccdafd;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    
+  }
+  .timecontainer{
+    font-weight: 500;
+  }
+  .time{
+    background-color: #ccdafd;
+    border: none;
+    padding: 5px 20px;
+   }
+
+    .calender{
+        width: 100%;
+        text-align: center;
+    }
+
+    .calender h6{
+        text-align: start !important;
+    }
+   
+
+    .calender input{
+        margin-top: 10px;
+        padding: 200px;
+        width: 100%;
+        background-color: #ccdafd;
+        
+    }
+
+    .btncontainer{
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        margin-top: 50px;
+    }
+
+    .btnconfirm{
+        padding:15px 35px;
+        background-color: #31467a;
+        color: white;
+        font-weight: bold;
+        border: none;
+        border-radius: 10px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .btncancel{
+        padding:15px 35px;
+        background-color: #ccdafd;
+        font-weight: bold;
+        color: #31467a;
+        border: none;
+        border-radius: 10px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+  
+
+    @media screen and (max-width:1000px) {
+       
+       header{
+        padding: 10px;
+        border: none;
+       }
+        .pcnavbar{
+        display: none;
+       } 
+
+       #phonenavbar{
+        display: block;
+       }
+
+       #phonenavbar ul li a{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 3.5vw;
+        color: whitesmoke;
+    }
+
+    .logo img{
+        width: 50%;
+    }
+    .logo p{
+        font-size: 1.2vw;
+        text-align: center;
+        width: 50%;
+        color: whitesmoke;
+        text-wrap: nowrap;
+    }
+    #offcanvasResponsive{
+        background: url(img/unsplash_xh8SgY9_ob4.png);
+        background-color:rgb(72,90,130);
+        background-blend-mode: multiply;
+        background-position: 100%; 
+        background-size: cover;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       
+        font-weight: 500;
+        height: fit-content;
+        
+    }
+    .hero{
+        padding: 10px 20px;
+    }
+    .bookappointment{
+        font-size: 4vw;
+        width: 100%;
+    }
+
+    .inputanddatecontainer{
+        flex-direction: column;
+        /* gap: 50px; */
+    }
+
+    .form input{
+        font-size: 3vw;
+    }
+    
+    .timecontainer span{
+        font-size: 4vw;
+    }
+
+    .time{
+        padding: 2.5px 10px;
+    }
+    
+    .calender input{
+        padding: 100px;
+    }
+
+    .calender h6{
+        font-size: 3vw;
+        text-align: start !important;
+    }
+
+    .btncontainer{
+        gap: 50px;
+        margin-top: 20px;
+    }
+
+    .btnconfirm,.btncancel{
+        padding: 7.5px 17.5px;
+        font-size: 4vw;
+    }
+    }
